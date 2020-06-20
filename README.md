@@ -7,3 +7,6 @@ Currently most of the material is what I am covering in the Python 3 Codecademy 
 What I have learned so far:
 
 - Multiple return values in functions
+- Lists, tuples and list comprehension
+- Using loops in lists and functions
+- 
