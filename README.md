@@ -10,4 +10,5 @@ What I have learned so far:
 - Lists, tuples and list comprehension
 - Using loops in lists and functions
 - Converting iterating elements inside a loop
+- Using range inside a loop
 - 
