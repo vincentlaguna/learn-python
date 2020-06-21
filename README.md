@@ -9,4 +9,5 @@ What I have learned so far:
 - Multiple return values in functions
 - Lists, tuples and list comprehension
 - Using loops in lists and functions
+- Converting iterating elements inside a loop
 - 
