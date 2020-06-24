@@ -11,4 +11,5 @@ What I have learned so far:
 - Using loops in lists and functions
 - Converting iterating elements inside a loop
 - Using range inside a loop
+- First try at FizzBuzz
 - 
