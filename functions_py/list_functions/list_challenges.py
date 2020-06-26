@@ -20,7 +20,7 @@ def more_frequent_item(lst, item1, item2):
 print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
 
 # Removing elements from a list
-print("---Proceeding to eliminate even elements from this list")
+print("---Proceeding to eliminate even elements from this list: \n")
 def delete_starting_evens(lst):
   while(len(lst) > 0 and lst[0] % 2 == 0):
     lst = lst[1:]
@@ -28,3 +28,12 @@ def delete_starting_evens(lst):
 
 print(delete_starting_evens([4, 8, 10, 11, 12, 15]))
 print(delete_starting_evens([4, 8, 10]))
+
+# Return odd indices
+print("---Proceeding to iterate through odd indices in this list: \n")
+def odd_indices(lst):
+  new_lst = []
+  for i in range(1, len(lst), 2):
+    new_lst.append(lst[i])
+  return new_lst
+print(odd_indices([4, 3, 7, 10, 11, -2]))
