@@ -18,3 +18,13 @@ def more_frequent_item(lst, item1, item2):
   else:
     return item2
 print(more_frequent_item([2, 3, 3, 2, 3, 2, 3, 2, 3], 2, 3))
+
+# Removing elements from a list
+print("---Proceeding to eliminate even elements from this list")
+def delete_starting_evens(lst):
+  while(len(lst) > 0 and lst[0] % 2 == 0):
+    lst = lst[1:]
+  return lst
+
+print(delete_starting_evens([4, 8, 10, 11, 12, 15]))
+print(delete_starting_evens([4, 8, 10]))
