@@ -42,4 +42,12 @@ def odd_indices(lst):
 print(odd_indices([4, 3, 7, 10, 11, -2]))
 
 # Return a list of exonentiated numbers of two lists
-print("\nReturning an exponentiated list from two lists: \n")
+print("\nReturning an exponentiated list created from two lists: \n")
+def exponents(bases, powers):
+  new_lst = []
+  for i in bases:
+    for j in powers:
+      new_lst.append(i ** j)
+  return new_lst
+  
+print(exponents([2, 3, 4], [1, 2, 3]))
