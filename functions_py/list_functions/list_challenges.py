@@ -40,3 +40,6 @@ def odd_indices(lst):
     new_lst.append(lst[i])
   return new_lst
 print(odd_indices([4, 3, 7, 10, 11, -2]))
+
+# Return a list of exonentiated numbers of two lists
+print("\nReturning an exponentiated list from two lists: \n")
