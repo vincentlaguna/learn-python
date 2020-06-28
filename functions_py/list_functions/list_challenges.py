@@ -79,3 +79,15 @@ def over_nine_thousand(lst):
   return sum
     
 print(over_nine_thousand([8000, 900, 120, 5000]))
+
+# Return the largest number in a list
+print("\nReturning largest number from a list: \n")
+def max_num(nums):
+  max = nums[0]
+  for i in nums:
+    if i > max:
+      max = i
+  return max
+
+print(max_num([50, -10, 0, 75, 20]))
+
