@@ -81,7 +81,7 @@ def over_nine_thousand(lst):
 print(over_nine_thousand([8000, 900, 120, 5000]))
 
 # Return the largest number in a list
-print("\nReturning largest number from a list: \n")
+print("\nReturning the largest number from a list: \n")
 def max_num(nums):
   max = nums[0]
   for i in nums:
@@ -90,4 +90,15 @@ def max_num(nums):
   return max
 
 print(max_num([50, -10, 0, 75, 20]))
+
+# Return identical values from lists of equal lengths
+print("\nReturning identical values from 2 lists equal in length: \n")
+def same_values(lst1, lst2):
+  new_lst = []
+  for i in range(len(lst1)):
+    if(lst1[i] == lst2[i]):
+      new_lst.append(i)
+  return new_lst
+  
+print(same_values([5, 1, -10, 3, 3], [5, 10, -10, 3, 5]))
 
