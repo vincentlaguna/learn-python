@@ -12,4 +12,6 @@ What I have learned so far:
 - Converting iterating elements inside a loop
 - Using range inside a loop
 - First try at FizzBuzz
+- List comprehensions
+- Random module
 - 
