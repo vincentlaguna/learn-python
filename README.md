@@ -14,4 +14,5 @@ What I have learned so far:
 - First try at FizzBuzz
 - List comprehensions
 - Random module
+- Matplot example using Random module
 - 
