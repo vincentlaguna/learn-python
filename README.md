@@ -15,4 +15,5 @@ What I have learned so far:
 - List comprehensions
 - Random module
 - Matplot example using Random module
+- Decimal Module example
 - 
