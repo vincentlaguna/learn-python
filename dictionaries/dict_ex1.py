@@ -6,6 +6,7 @@ user_ids.update({"theLooper": 138475, "stringQueen": 85739})
 
 print(user_ids)
 
-oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "Best Actress": "Emma Stone", "Animated Feature": "Zootopia"}
+oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", 
+                 "Best Actress": "Emma Stone", "Animated Feature": "Zootopia"}
 
 #continue to completion...
