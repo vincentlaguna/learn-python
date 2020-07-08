@@ -24,3 +24,15 @@ playcounts = [78, 29, 44, 21, 89, 5]
 plays = {key:value for key, value in zip(songs, playcounts)}
 
 print(plays)
+
+plays["Purple Haze"] = 1
+
+plays.update({"Respect": 94})
+
+library = {"The Best Songs": plays, "Sunday Feelings": ""}
+
+print(library)
+
+library.update({"Sunday Feelings": {"Everyday is like Sunday": 99}})
+
+print(library)
