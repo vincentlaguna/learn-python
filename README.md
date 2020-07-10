@@ -16,4 +16,5 @@ What I have learned so far:
 - Random module
 - Matplot example using Random module
 - Decimal Module example
+- Handling exceptions using Try and Except
 - 
