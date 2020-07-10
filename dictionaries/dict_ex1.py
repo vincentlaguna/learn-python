@@ -1,24 +1,31 @@
 # Examples of using dictionaries in Python
+print("Quick example of using a dictionary in Python: ")
 user_ids = {"teraCoder": 9018293, "proProgrammer": 119238}
 user_ids.update({"theLooper": 138475, "stringQueen": 85739})
 print(user_ids)
 
 # Changing Values in dictionaries
+print("\nChanging a value in a dictionary: ")
 oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "Best Actress": "Emma Stone", "Animated Feature": "Zootopia"}
+print(oscar_winners)
+print("Modifying values in dictionary...")
 oscar_winners["Supporting Actress"] = "Viola Davis"
 oscar_winners["Best Picture"] = "Moonlight"
 print(oscar_winners)
 
 # Using list comprehension inside a dictionary
+print("\nUsing list comprehensions in a dictionary: ")
 drinks = ["espresso", "chai", "decaf", "drip"]
 caffeine = [64, 40, 0, 120]
 zipped_drinks = zip(drinks, caffeine)
 drinks_to_caffeine = {key:value for key, value in zipped_drinks}
 print(drinks)
 print(caffeine)
+print("Using list comprehension for both lists...")
 print(drinks_to_caffeine)
 
 # Review challenge
+print("\nReview challenge: ")
 songs = ["Like a Rolling Stone", "Satisfaction", "Imagine", "What's Going On", "Respect", "Good Vibrations"]
 playcounts = [78, 29, 44, 21, 89, 5]
 plays = {key:value for key, value in zip(songs, playcounts)}
@@ -31,8 +38,21 @@ plays.update({"Respect": 94})
 
 library = {"The Best Songs": plays, "Sunday Feelings": ""}
 
+print("Updating lists into dictionary...")
 print(library)
 
 library.update({"Sunday Feelings": {"Everyday is like Sunday": 99}})
 
+print("Updating Library dictionary...")
 print(library)
+
+# Example of using .get() and modifying non-existent values
+print("\nExample of using .get() and modifying non-existent key-values in a dictionary: ")
+
+tc_id = user_ids.get("teraCoder", 1000)
+print("Returning TeraCoder's id -> ")
+print(tc_id)
+
+print("Returning superStackSmash's id (auto-assigning is non-existent) -> ")
+stack_id = user_ids.get("superStackSmash", 100000)
+print(stack_id)
