@@ -66,3 +66,5 @@ health_points += available_items.pop("power stew", 0)
 health_points += available_items.pop("mystic bread", 0)
 print(available_items)
 print(health_points)
+
+# Example of getting all keys:
