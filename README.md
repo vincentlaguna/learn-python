@@ -18,4 +18,5 @@ What I have learned so far:
 - Decimal Module example
 - Handling exceptions using Try and Except
 - Using .get() in dictionaries and auto-assigning non-existent key values
+- Iterating through modifying values in dictionaries
 - 
