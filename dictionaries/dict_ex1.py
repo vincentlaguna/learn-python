@@ -84,3 +84,10 @@ for i in num_exercises.values():
   total_exercises += i
 
 print(total_exercises)
+
+# Example of iterating and using .items:
+print("\nExample of iterating using .items() to list the output properly ->")
+pct_women_in_occupation = {"CEO": 28, "Engineering Manager": 9, "Pharmacist": 58, "Physician": 40, "Lawyer": 37, "Aerospace Engineer": 9}
+
+for i, v in pct_women_in_occupation.items():
+  print("Women make up " + str(v) + " percent of " + i + "s.")
