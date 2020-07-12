@@ -67,4 +67,10 @@ health_points += available_items.pop("mystic bread", 0)
 print(available_items)
 print(health_points)
 
-# Example of getting all keys:
+# Example of getting all the dictionary key objects:
+print("\nExample of getting all the dictionary key objects using .keys()")
+num_exercises = {"functions": 10, "syntax": 13, "control flow": 15, "loops": 22, "lists": 19, "classes": 18, "dictionaries": 18}
+users = user_ids.keys()
+lessons = num_exercises.keys()
+print(list(users))
+print(list(lessons))
