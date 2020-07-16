@@ -6,9 +6,13 @@ points = [1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3,
           
 letter_to_points = {key:value for key, value in zip(letters, points)}
 letter_to_points[" "] = 0
+print(letter_to_points)
 
 def score_word(word):
   point_total = 0
   for i in word:
-    # needs implementation...
-print(letter_to_points)
+    point_total += letter_to_points.get(i, 0)
+  return point_total
+
+brownie_points = score_word("BROWNIE")
+print("Brownie Points -> " + str(brownie_points))
