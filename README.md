@@ -20,4 +20,4 @@ What I have learned so far:
 - Using .get() in dictionaries and auto-assigning non-existent key values
 - Iterating through modifying values in dictionaries
 - Scrabble challenge using list comprehension and dictionaries
-- 
+- Returning and assigning values to list dependant on 

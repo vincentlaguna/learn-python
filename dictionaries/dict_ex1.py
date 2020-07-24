@@ -101,3 +101,16 @@ spread["future"] = tarot.pop(10)
 
 for i, value in spread.items():
   print("Your " + i + " is the " + value + " card.")
+  
+# Iterating through a dictionary where values are also keys:
+print("\nExample of diplaying on the the keys that are also values in a dictionary ->")
+print("{1:100, 2:1, 3:4, 4:10}, {a:apple, b:a, c:100}")
+def values_that_are_keys(my_dictionary):
+  key_values = []
+  for i in my_dictionary.values():
+    if i in my_dictionary:
+      key_values.append(i)
+  return key_values
+
+print(values_that_are_keys({1:100, 2:1, 3:4, 4:10}))
+print(values_that_are_keys({"a":"apple", "b":"a", "c":100}))
