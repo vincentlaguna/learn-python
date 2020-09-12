@@ -22,4 +22,5 @@ What I have learned so far:
 - Scrabble challenge using list comprehension and dictionaries
 - Returning and assigning values to list dependant if key or values
 - Using with open(), readline() and read() functions to read a text files
+- Using the "w" option for generating and writing to a files
 - 
