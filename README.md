@@ -21,4 +21,5 @@ What I have learned so far:
 - Iterating through modifying values in dictionaries
 - Scrabble challenge using list comprehension and dictionaries
 - Returning and assigning values to list dependant if key or values
+- Using with open(), readline() and read() functions to read a text files
 - 
