@@ -23,4 +23,5 @@ What I have learned so far:
 - Returning and assigning values to list dependant if key or values
 - Using with open(), readline() and read() functions to read a text files
 - Using the "w" option for generating and writing to a files
+- Using the "a" option for appending to an existing files
 - 
