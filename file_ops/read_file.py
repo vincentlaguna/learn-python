@@ -27,3 +27,12 @@ print("Reading the python-generated file: \n")
 with open("python_generated_file1.txt", "r") as read_gen_file1:
     r_gen_file1 = read_gen_file1.read()
 print(r_gen_file1)
+
+# Appending text to an existing file
+print("Appending text to the existing file...\n")
+with open("python_generated_file1.txt", "a") as gen_file1:
+    gen_file1.write("This is an appended line to the existing file.\n")
+
+with open("python_generated_file1.txt") as gen_file1:
+    content1 = gen_file1.read()
+print(content1)
