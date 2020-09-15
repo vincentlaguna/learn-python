@@ -24,4 +24,5 @@ What I have learned so far:
 - Using with open(), readline() and read() functions to read a text files
 - Using the "w" option for generating and writing to a files
 - Using the "a" option for appending to an existing files
+- Using the csv library to retireive specific data from a .csv file
 - 
