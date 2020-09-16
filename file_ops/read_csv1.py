@@ -7,6 +7,7 @@ email_list = []
 
 with open('100-contacts.csv') as contacts:
     contact_reader = csv.DictReader(contacts)
+    #contact_reader = csv.DictReader(contacts, delimiter = '@') # With delimiter option
     for row in contact_reader:
         email_list.append(row["email"])
 print(email_list)
