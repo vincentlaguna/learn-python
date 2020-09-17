@@ -21,4 +21,5 @@ with open('test_logger1.csv', 'w') as test_logger1:
     log_writer = csv.DictWriter(test_logger1, fieldnames = fields)
     log_writer.writeheader()
     for item in access_log:
+        log_writer.writerow(item)
         
